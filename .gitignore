@@ -1,0 +1,32 @@
+# ROS 2 build, install, and log directories
+build/
+install/
+log/
+
+# Colcon-related files
+**/COLCON_IGNORE
+**/colcon_build.rc
+**/colcon_command_prefix_setup_py.sh
+**/colcon_command_prefix_setup_py.sh.env
+
+# Python cache files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Egg info and Python package metadata
+**/*.egg-info/
+**/*.egg
+
+# ROS 2 package-specific generated files
+**/my_ros2_pkg.egg-info/
+**/prefix_override/
+
+# Logs and temporary files
+**/events.log
+**/logger_all.log
+**/*.log
+**/latest
+**/latest_build
+
